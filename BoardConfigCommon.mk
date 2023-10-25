@@ -106,7 +106,7 @@ TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_DENSITY := mdpi
 
 # SELinux
-# include $(COMMON_PATH)/sepolicy/sepolicy.mk
+include $(COMMON_PATH)/sepolicy/sepolicy.mk
 
 # Sensors
 TARGET_NO_SENSOR_PERMISSION_CHECK := true
